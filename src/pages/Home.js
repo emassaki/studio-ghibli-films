@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
-import { MovieCards } from '../components';
+import MovieCards from '../components/MovieCards';
 
 import { fetchMovies, fetchSpecies } from '../actions';
 

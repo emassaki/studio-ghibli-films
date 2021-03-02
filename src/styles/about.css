@@ -1,0 +1,36 @@
+.main-about {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-content {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+  min-width: 300px;
+  width: 50%;
+}
+
+.about-content h2 {
+  background-color: rgb(62, 42, 33);
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  color: rgb(255, 255, 199);
+  margin: 0;
+  padding: 20px;
+}
+
+.about-description {
+  background-color: rgb(255, 255, 199);
+  border-radius: inherit;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  color: rgb(62, 42, 33);
+  height: 100%;
+  padding: 10px 20px;
+}
