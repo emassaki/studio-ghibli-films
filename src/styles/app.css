@@ -1,0 +1,23 @@
+.master-header {
+  align-items: center;
+  background-color: rgb(26, 83, 92);
+  border: 2px solid rgb(255, 230, 109);
+  border-radius: 5px;
+  color: rgb(255, 230, 109);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px 0 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.master-header a {
+  color: rgb(255, 230, 109);
+  font-size: 30px;
+}
+
+body {
+  background-color: rgb(154, 173, 191);
+}

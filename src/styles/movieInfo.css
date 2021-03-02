@@ -1,0 +1,106 @@
+.main-details {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.selected-movie {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+  min-width: 300px;
+  width: 50%;
+}
+
+.selected-movie h2 {
+  background-color: rgb(62, 42, 33);
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  color: rgb(255, 255, 199);
+  margin: 0;
+  padding: 20px;
+}
+
+.movie-details {
+  background-color: rgb(255, 255, 199);
+  border-radius: inherit;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  color: rgb(62, 42, 33);
+  height: 100%;
+  padding: 10px 20px;
+}
+
+.characters-main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.characters-header {
+  align-items: center;
+  background-color: rgb(26, 83, 92);
+  border: 2px solid rgb(255, 230, 109);
+  border-radius: 5px;
+  color: rgb(255, 230, 109);
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 30px 0;
+  text-align: center;
+  width: 90%;
+}
+
+.characters-header h2 {
+  margin: 0;
+}
+
+.sad-emote {
+  font-size: 30px;
+  margin: 0 20px;
+}
+
+.characters-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.character-cards {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  max-width: 500px;
+  min-width: 300px;
+}
+
+.character-name {
+  background-color: rgb(62, 42, 33);
+  border-bottom: 1px solid black;
+  border-radius: inherit;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  box-sizing: border-box;
+  color: rgb(255, 255, 199);
+  text-align: center;
+}
+
+.character-details {
+  background-color: rgb(255, 255, 199);
+  border-radius: inherit;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  color: rgb(62, 42, 33);
+  height: 100%;
+  padding: 10px 20px;
+  text-align: center;
+}
