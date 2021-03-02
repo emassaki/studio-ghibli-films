@@ -27,6 +27,17 @@
   padding: 10px 20px;
 }
 
+.movie-card-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-card-header svg {
+  font-size: 25px;
+  margin-right: 20px;
+}
+
 .movie-card-description {
   line-height: 1.5;
 }

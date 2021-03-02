@@ -6,8 +6,6 @@ import { MovieCards } from '../components';
 
 import { fetchMovies, fetchSpecies } from '../actions';
 
-import '../styles/home.css';
-
 class Home extends React.Component {
   constructor() {
     super();

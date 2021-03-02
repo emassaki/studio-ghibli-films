@@ -35,6 +35,28 @@
   padding: 10px 20px;
 }
 
+.fav-btns {
+  display: flex;
+  justify-content: center;
+}
+
+.fav-btns button {
+  align-items: center;
+  background-color: rgb(95, 69, 71);
+  border-radius: 5px;
+  color: rgb(255, 255, 199);
+  display: flex;
+  font-weight: 600;
+  justify-content: space-evenly;
+  margin: 10px 20px 0;
+  padding: 10px 20px;
+  width: 150px;
+}
+
+.fav-btns button:hover {
+  background-color: rgb(62, 42, 33);
+}
+
 .characters-main {
   align-items: center;
   display: flex;

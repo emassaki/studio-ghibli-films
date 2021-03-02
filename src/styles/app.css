@@ -16,6 +16,7 @@ a {
 .master-header a {
   color: rgb(255, 230, 109);
   font-size: 30px;
+  margin: 0 10px;
 }
 
 body {
